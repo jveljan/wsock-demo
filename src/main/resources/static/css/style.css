@@ -1,0 +1,11 @@
+#messages {
+  border: solid gray 1px;
+  width: 100%;
+  height: 400px;
+}
+.pull-right {
+  float: right;
+}
+.pad {
+  padding: 5px;
+}

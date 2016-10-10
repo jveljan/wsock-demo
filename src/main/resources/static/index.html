@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>wsock example</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="pull-right">Total users: <span id="userCount"></span></div>
+    <div class="pad">
+      <form id="changeNickForm">
+        Welcome
+        <input type="text" id="nickname">
+        <button type="submit">Change</button>
+      </form>
+    </div>
+    <div class="pad">
+      <div id="messages"></div>
+    </div>
+    <div class="pad">
+      <form id="sendMsgForm">
+        <input type="text" id="msg" placeholder="">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="/wsock.js"></script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
